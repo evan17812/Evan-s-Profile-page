@@ -11,7 +11,7 @@
     box-sizing: border-box;
     margin: 0;
 }
-
+/* Lining up the top navigation bar*/
 .header {
     padding: 10px;
     background-color: var(--background2);
@@ -52,7 +52,7 @@ li{
     font-family: 'Fantasy';
     font-size: 25px;
 }
-
+/* Changing link colors and remove underline*/
 .link1 {
     color: var(--background3);
     text-decoration: none;
@@ -63,6 +63,7 @@ li{
     text-decoration: none;
 
 }
+/* This makes a container to put my background in*/
 .container{
     position: relative;
 }
@@ -74,6 +75,7 @@ li{
 
 }
 
+/* This lets me pin an image within an image*/
 .background-pic1{
     position: absolute;
     left:2%;
@@ -103,7 +105,8 @@ li{
     font-size: 40px;
     animation: animate 8s alternate infinite;
 }
-  
+
+/* Creating the animation for my color changing text. It changes at different points in time marked by %*/
   @keyframes animate {
     0% {
         color: var(--background1);
@@ -132,7 +135,7 @@ li{
 
 
 
-
+/* Create flex boxes*/
 .tabs{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
@@ -154,6 +157,7 @@ li{
     width: 100px;
 }
 
+/* Create vertical line to split the flexbox, which actually makes the flexbox split into 3 parts, the header, the vertical line, and the right content */
 .verticalline {
     border-left: thick solid var(--background3);
     height: auto;
@@ -172,6 +176,7 @@ li{
     max-width: 40%;
 }
 
+/* Creating cards to contain the projects i'm done*/
 .card {
     flex: 1 0 100%;
     text-align: center;
@@ -209,6 +214,7 @@ li{
     flex: 1 0 0;
 }
 
+/*Make the contacts show in 2 lines*/
 .contact {
     padding: 10px;
     text-align: center;
