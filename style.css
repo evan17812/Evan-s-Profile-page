@@ -58,10 +58,18 @@ li{
     text-decoration: none;
 }
 
+.link1:visited{
+    color: var(--background3);
+}
+
 .link2 {
-    color: #ffffff;
+    color: var(--background1);
     text-decoration: none;
 
+}
+
+.link2:visited{
+    color: var(--background1);
 }
 /* This makes a container to put my background in*/
 .container{
